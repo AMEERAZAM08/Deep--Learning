@@ -1,0 +1,188 @@
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ cu_dnnlstm (CuDNNLSTM)      (None, 28, 128)           80896
+ dropout_6 (Dropout)         (None, 28, 128)           0
+ cu_dnnlstm_1 (CuDNNLSTM)    (None, 128)               132096
+ dropout_7 (Dropout)         (None, 128)               0
+ dense_4 (Dense)             (None, 32)                4128
+ dropout_8 (Dropout)         (None, 32)                0
+ dense_5 (Dense)             (None, 10)                330
+=================================================================
+Total params: 217,450
+Trainable params: 217,450
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_3"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ lstm_4 (LSTM)               (None, 28, 128)           80384
+ dropout_9 (Dropout)         (None, 28, 128)           0
+ lstm_5 (LSTM)               (None, 128)               131584
+ dropout_10 (Dropout)        (None, 128)               0
+ dense_6 (Dense)             (None, 32)                4128
+ dropout_11 (Dropout)        (None, 32)                0
+ dense_7 (Dense)             (None, 10)                330
+=================================================================
+Total params: 216,426
+Trainable params: 216,426
+Non-trainable params: 0
+_________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 116s 60ms/step - loss: 0.7065 - accuracy: 0.7657 - val_loss: 0.1618 - val_accuracy: 0.9507 - _timestamp: 1648100262.0000 - _runtime: 226.0000
+Epoch 1/2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 86s 46ms/step - loss: 0.1775 - accuracy: 0.9515 - val_loss: 0.1190 - val_accuracy: 0.9702 - _timestamp: 1648100415.0000 - _runtime: 379.0000
+Epoch 2/2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1875/1875 [==============================] - 109s 58ms/step - loss: 0.1200 - accuracy: 0.9677 - val_loss: 0.0979 - val_accuracy: 0.9744 - _timestamp: 1648100525.0000 - _runtime: 489.0000
+0.9744
+5

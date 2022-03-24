@@ -1,0 +1,19 @@
+{
+    "os": "Linux-5.13.0-37-generic-x86_64-with-glibc2.34",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-03-24T05:34:02.543121",
+    "startedAt": "2022-03-24T05:33:19.369728",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/ameer/.local/share/jupyter/runtime/kernel-1d64f50c-414d-495f-9dbc-41509987495c.json"
+    ],
+    "state": "running",
+    "program": "mnist-with-lstm-and-cudnnlstm-jvsc-768d3afc-b2ac-4e34-949f-6afcc81b1d83.ipynb",
+    "root": "/home/ameer/Documents/GitHub/Deep--Learning",
+    "host": "ameertuf",
+    "username": "ameer",
+    "executable": "/bin/python3"
+}
