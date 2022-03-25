@@ -186,3 +186,4 @@ Epoch 2/2
 1875/1875 [==============================] - 109s 58ms/step - loss: 0.1200 - accuracy: 0.9677 - val_loss: 0.0979 - val_accuracy: 0.9744 - _timestamp: 1648100525.0000 - _runtime: 489.0000
 0.9744
 5
+Image name label belong to  5
